@@ -15,8 +15,8 @@
   --font: "Inter", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #3056d3;
-  --white: #ffffff;
+  --primary-color: #e8bcf0;
+  --white: #fff;
 }
 
 body {
@@ -247,7 +247,7 @@ p {
 }
 
 .navbar-brand img {
-  max-width: 160px;
+  max-width: 35px;
 }
 
 .navbar-toggler {
@@ -327,7 +327,7 @@ p {
 .navbar-nav .nav-item > a {
   font-size: 16px;
   font-weight: 400;
-  color: var(--white);
+  color: var(--heading-color);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 25px 8px;
@@ -343,8 +343,8 @@ p {
 }
 
 .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
-  color: var(--white);
-  opacity: 0.5;
+  color: var(--body-color);
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -506,8 +506,8 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: var(--primary-color);
-  padding-top: 180px;
+  background: var(--white);
+  padding-top: 118px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -529,7 +529,7 @@ p {
 }
 
 .ud-hero-content .ud-hero-title {
-  color: var(--white);
+  color: var(#000);
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
@@ -556,7 +556,7 @@ p {
   font-size: 20px;
   line-height: 35px;
   text-align: center;
-  color: var(--white);
+  color: var(--body-color);
   opacity: 0.8;
   max-width: 600px;
   margin: auto;
@@ -599,8 +599,8 @@ p {
 }
 
 .ud-hero-buttons .ud-white-btn {
-  background: var(--white);
-  color: var(--heading-color);
+  background: var(--heading-color);
+  color: var(--white);
 }
 
 .ud-hero-buttons .ud-white-btn:hover {
@@ -611,7 +611,7 @@ p {
 }
 
 .ud-hero-buttons .ud-link-btn:hover {
-  color: var(--white);
+  color: var(--);
   background: transparent;
   opacity: 0.5;
 }
